@@ -98,7 +98,7 @@ class TicTacToe
 
   
    def play
-    @board = Array.new(9, " ")
+    @board
     turn until over?
     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
    
