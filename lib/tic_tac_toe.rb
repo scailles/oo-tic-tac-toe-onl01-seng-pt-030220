@@ -100,7 +100,7 @@ class TicTacToe
    def play
     @board
     turn until over?
-     draw? ?
+     draw? 
     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
     
    
