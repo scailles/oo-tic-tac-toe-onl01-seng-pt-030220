@@ -102,7 +102,7 @@ class TicTacToe
     turn
   end
   if won? == true
-    puts ""
+    puts "
 end
     
 
