@@ -102,9 +102,6 @@ class TicTacToe
     turn until over?
      draw? 
     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
-    
-   
-
   end
 
 end
